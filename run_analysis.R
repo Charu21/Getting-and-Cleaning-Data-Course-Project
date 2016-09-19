@@ -98,7 +98,7 @@ colNames = colnames(allData);
 
 tidyData = aggregate(allData[,names(allData) != c('activity','subject')],by=list(activity = allData$activity,subject = allData$subject),mean);
 
-write.table(tidyData, "tidy_data.txt", row.name=TRUE,sep='\t')
+write.table(tidyData, "tidy_data.txt", row.name=FALSE,sep='\t')
 
 View(tidyData)
 
