@@ -1,12 +1,12 @@
-Human Activity Recognition Using Smartphones Data Set 
+#Human Activity Recognition Using Smartphones Data Set 
 
 Abstract: Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
-Data source
+##Data source
 
 This dataset is taken from the "Human Activity Recognition Using Smartphones Data Set" which was originally made avaiable here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Data Set Information:
+##Data Set Information:
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
@@ -14,7 +14,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 Check the README.txt file for further details about this dataset. 
 
-Attribute Information:
+##Attribute Information:
 
 For each record in the dataset it is provided: 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
@@ -23,11 +23,11 @@ For each record in the dataset it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-Identifiers
+##Identifiers
 •	subject - The ID of the test subject
 •	activity - The type of activity performed when the corresponding measurements were taken
 
-Variables Used
+##Variables Used
 
 - xTrain, yTrain, subjecTrain contains the training data set and xtest, ytest, subjecTest contain test data set.
 
@@ -40,10 +40,11 @@ requiredFeature is a numeric vector that contains feature values of mean and sta
 
 - tidyData contains the final result required which is a tidy data set with the relevant averages of each variable for each activity and each subject which will be stored consequently in tidy_data.txt file. 
  
-Activity Labels
+##Activity Labels
 
-	WALKING (value 1): subject was walking during the test----WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
-	WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
-	SITTING (value 4): subject was sitting during the test
-	STANDING (value 5): subject was standing during the test
-	LAYING (value 6): subject was laying down during the test
+-	WALKING (value 1): subject was walking during the test
+-	WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
+-	WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
+-	SITTING (value 4): subject was sitting during the test
+-	STANDING (value 5): subject was standing during the test
+-	LAYING (value 6): subject was laying down during the test
