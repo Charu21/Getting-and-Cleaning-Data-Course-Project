@@ -14,4 +14,4 @@ The main script run_analysis.R does the following
 4) Next, we generate a new dataset with all the average measures for each subject and activity type (30*6=180). 
 5) Lastly, the script will create a tidy data set containing the means of all the columns per test subject and per activity. This tidy dataset will be written to a tab-delimited file called tidy_data.txt, which can also be found in this repository.
 
-#NOTE : You can find additional information about the variables, data and transformations in the codebook.md file.
+NOTE : You can find additional information about the variables, data and transformations in the codebook.md file.
